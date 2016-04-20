@@ -5,7 +5,11 @@ import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
 
 public class RPS {
+
   public static void main(String[] args) {
+
+    staticFileLocation("/public");
+
     String layout = "templates/layout.vtl";
 
     get("/", (request, response) -> {
@@ -21,7 +25,7 @@ public class RPS {
       String playerOne = request.queryParams("playerOne");
       String playerTwo = request.queryParams("playerTwo");
       String result = runRockPaperScissors(playerOne, playerTwo);
-      
+
       model.put("results", result);
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());

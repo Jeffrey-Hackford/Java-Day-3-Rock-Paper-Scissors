@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RPSTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-20T18:39:51" hostname="epicodus-93.local" time="0.002">
+<testsuite name="RPSTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-20T20:55:12" hostname="epicodus-93.local" time="0.003">
   <properties/>
-  <testcase name="checkWinner_paperVSRock_true" classname="RPSTest" time="0.001"/>
+  <testcase name="checkWinner_paperVSRock_true" classname="RPSTest" time="0.0"/>
   <testcase name="checkWinner_rockVSRock_true" classname="RPSTest" time="0.0"/>
   <testcase name="checkWinner_rockVSpaper_true" classname="RPSTest" time="0.0"/>
   <testcase name="checkWinner_scissorsVSScissors_true" classname="RPSTest" time="0.0"/>
